@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.showing {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+.navbar-brand {
+    font-size: 1.7rem !important;
+    color: #e4c030 !important;
+}
+
+.Main-Container {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    background: url(Weather-img.jpg);
+}
+
+h1 #cityName {
+    color: #c91010;
+    font-weight: bold;
+}
+
+
+footer {
+    padding: 15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: #282727;
+    color: #f48d8d;
+}
